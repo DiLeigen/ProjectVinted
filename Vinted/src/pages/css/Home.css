@@ -1,0 +1,61 @@
+.home-hero-bg-img {
+    background-image: url(https://lereacteur-vinted.netlify.app/static/media/hero.2c66d85a1335550c4518.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 455px;
+    position: relative;
+    width: 100%;
+  }
+
+  .home-hero-forme {
+    bottom: 0;
+    height: 80px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+  }
+
+
+  .home-hero-bg-img  div {
+    margin: auto;
+    width: 1280px;
+  }
+
+  .home-hero-ready {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 2px hsla(0,0%,7%,.24);
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    height: 220px;
+    justify-content: center;
+    padding: 25px;
+    position: absolute;
+    top: 75px;
+    width: 360px;
+  }
+
+
+  .home-hero-ready button {
+    background-color: #2baeb7;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    height: 45px;
+    margin-top: 32px;
+    padding: 0 14px;
+    width: 187px;
+  }
+.pret{
+        margin: auto;
+        width: 1280px;
+}
+
+.home-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto auto;
+    width: 1265px;
+  }

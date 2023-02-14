@@ -1,0 +1,98 @@
+
+
+.publish-container{
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.publish-main h2 {
+    font-size: 24px;
+    padding-top: 40px;
+  }
+
+  .file-select {
+    background-color: #fff;
+    box-shadow: 0 0 2px gray;
+    margin: 20px 0;
+    padding: 24px;
+  }
+  .dashed-preview-without {
+    align-items: center;
+    border: 1px dashed #ebedee;
+    border-radius: 3px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+  }
+
+  .input-design-default, .input-design-image {
+    align-items: center;
+    border: 1px solid #0ab1ba;
+    border-radius: 4px;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+  }
+
+.label-file {
+    color: #0ab1ba;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .label-file > span {
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+
+  .input-sign {
+    font-size: 40px;
+  }
+
+  button, input {
+    outline: none;
+  }
+
+.input{
+    display:none;
+    visibility:hidden;
+}
+.Choisir{
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.Choisir:hover{
+    color: #25a5c4; 
+}
+
+.text-input-section {
+    background-color: #fff;
+    box-shadow: 0 0 2px gray;
+    margin: 20px 0;
+  }
+
+  .text-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  .titre{
+    font-size:20px;
+  }
+
+.inputForme{
+    border: none;
+    border-bottom: 1px solid #ebedee;
+    color: #000;
+    font-family: Maison Neue;
+    font-size: 16px;
+    width: 50%;
+}
+
+
+.text-input > textarea::placeholder {
+    color: #c4c7c9;
+    font-size: 16px;
+  }
